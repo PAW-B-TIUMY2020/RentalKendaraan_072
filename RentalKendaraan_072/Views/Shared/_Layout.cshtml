@@ -33,6 +33,21 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Daftar Rental
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Customers" asp-action="Index">Customer</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Peminjamen" asp-action="Index">Peminjaman</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Pengembalians" asp-action="Index">Pengembalian</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Kendaraans" asp-action="Index">Kendaraan</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="JenisKendaraans" asp-action="Index">Jenis Kendaraan</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="KondisiKendaraans" asp-action="Index">Kondisi Kendaraan</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Jaminans" asp-action="Index">Jaminan</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Genders" asp-action="Index">Gender</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
